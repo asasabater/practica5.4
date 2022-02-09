@@ -1,0 +1,137 @@
+/*contenedor*/
+.container-fluid{
+background-image: linear-gradient(white 10%, #00005f);
+height: 100%;
+padding-bottom:20px ;
+}
+/*logotipo*/
+.logo{
+    width: 50px;
+}
+/*navbar*/
+.nv a{
+    color:#00005f;
+}
+.nv a:hover{
+    color: #ff6506;
+}
+/*botón buscador*/
+.boton{
+    color:#00005f !important;
+    border: solid #00005f 1px !important;
+}
+.boton:hover{
+    background-image: radial-gradient( circle at center, white 50%,  #ff6506 100%) !important;
+    
+}
+/*migas de pan*/
+.miga{
+    background-color: white !important;
+    border: none;
+    border-top: solid #00005f 1px !important;
+}
+.no-active{
+    color: #00005f !important;
+    text-decoration: none !important;
+}
+.active{
+    color: #ff6506 !important;
+}
+/*footer*/
+.footer{
+    background-color: #ff6506;
+    color:#00005f;
+    padding-bottom: 10px;
+}
+/*carousel*/
+#carousel{
+    margin-left: 15%;
+    width: 70%;
+    
+}
+#carousel img{
+    height: 600px;
+    
+}
+/*Grupo de cartas*/
+.card-group{
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 70%;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-title{
+    color: #ff6506;
+}
+
+.card-text{
+    color: #00005f;
+}
+.card-img-top{
+    height: 200px;
+}
+
+/*Formulario pintura*/
+
+.pintura{
+    border: #00005f solid 1px;
+    border-radius: 25px;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 5%;
+    background-image: linear-gradient(135deg,#ff6506, white 8% 70%, #ff6506 );
+    color: #00005f;
+}
+
+.color{
+    width: 20% !important;
+    height: 100px !important;
+}
+
+/*Productos*/
+.producto{
+    height: 50%;
+    border: #00005f solid 1px;
+    border-radius: 25px;
+}
+.producto:hover{
+    height: 55%;
+    border-radius: 25px;
+    border: #ff6506 solid 1px;
+}
+.nombre{
+    color: #ff6506;
+    font-size:large;
+}
+
+/*Tabla FAQ*/
+.tabla{
+    border: #00005f solid 1px;
+    background-color: white;
+    width: 80%;
+    margin-top: 2%;
+    padding: 5%;
+    background-image: linear-gradient(135deg,#ff6506, white 8% 70%, #ff6506 );
+}
+.faq{
+    color: #00005f;
+}
+
+/*mapa*/
+iframe{
+    margin-left: 35%;
+}
+
+/*Tabla contact*/
+.tabla2{
+    border: #ff6506 solid 1px;
+    background-color: white;
+    width: 80%;
+    margin-top: 2%;
+    padding: 5%;
+}
